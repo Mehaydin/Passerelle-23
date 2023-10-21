@@ -1,0 +1,115 @@
+
+    /*
+    Colors used
+
+    CSS HEX
+    --bright-pink-crayola: #ee4b6aff;
+    --pink: #f4b8c3ff;
+    --black: #010001ff;
+    --flax: #f2e47dff;
+    --arylide-yellow: #e6d460ff;
+    --mimi-pink: #fed7deff;
+    --red-cmyk: #ea261fff;
+
+     CSS HSL
+    --bright-pink-crayola: hsla(349, 83%, 61%, 1);
+    --pink: hsla(349, 73%, 84%, 1);
+    --black: hsla(300, 100%, 0%, 1);
+    --flax: hsla(53, 82%, 72%, 1);
+    --arylide-yellow: hsla(52, 73%, 64%, 1);
+    --mimi-pink: hsla(349, 95%, 92%, 1);
+    --red-cmyk: hsla(2, 83%, 52%, 1);
+
+*/
+body{
+    margin:0 600px;
+    display:inline-block;
+    vertical-align: middle;
+}
+h1{
+    background-color: #f4b8c3ff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+.specie{
+    text-transform: uppercase;
+
+}
+
+em{
+    background-color: rgb(234, 208, 213);
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    color:#ee4b6aff;
+    padding: 8px;
+}
+
+#pika1{
+  
+    border: 3px solid #ea261fff;
+float: right;
+   
+}
+#pika1:hover{
+    border-color:  #e6d460ff;
+}
+
+h2{
+    background-color: #f4b8c3ff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+span.evolution { 
+    background-color: #e6d460ff;
+    border: 4px solid rgb(198, 29, 29);
+    border-left:0px ;
+    border-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ul.evolution {
+
+    background-color: #e6d460ff;
+    border: 4px solid rgb(11, 10, 10);
+    border-left:0px ;
+    border-top: 0px;
+}
+li ul li {
+    color: red;
+}
+
+#pika2{
+    margin-left: 600px;
+    border: 3px solid #ea261fff;
+    height: 100px;
+    display:inline-block;
+}
+div{
+    display:inline-block;
+
+}
+
+table{
+border: 5px solid rgb(132, 75, 86);
+box-shadow: 5x #ea261fff ;
+margin-right: 110px;
+margin-top: -110px;
+}
+
+tr {
+    border: 3px solid #fed7deff; 
+  }
+  
+  td {
+    border: 4px solid #fed7deff;
+  }
+  #footer{
+    
+  }
+  hr{
+    margin-top: 20px;
+  }
