@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#inputText {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addToDo, #clearToDo {
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+#addToDo {
+    background-color: #007BFF;
+}
+
+#addToDo:active {
+    background: #0056b3;
+}
+
+#clearToDo {
+    background-color: #ff4141;
+}
+
+#clearToDo:active {
+    background: #cc3030;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+.delete {
+    color: #ff4141;
+    cursor: pointer;
+}
