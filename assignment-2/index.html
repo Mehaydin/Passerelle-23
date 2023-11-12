@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Assignment-2</title>
+    <style>
+        body {
+            font-family: 'Times New Roman';
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        .yellow-icon {
+            color: rgb(214, 214, 21);
+        }
+
+        #fieldset{
+            border:solid grey 2px;
+        }
+
+        #table{
+          border:solid grey 2px;
+        }
+        footer {
+            font-size: 14px; 
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <fieldset id="fieldset">
+            <p><i class="fas fa-hand-point-right  yellow-icon"></i> In HTML, for example, the  <span style="font-weight: bold;">&lt;h1&gt;</span> element is a sementic element, which
+                gives the text it wraps around the role (or meaning) of "a top level heading on your page."</p>
+            <p> <i class="fas fa-play"></i> <mark>Here is a top level heading</mark></p>
+            <p><i class="fas fa-hand-point-right  yellow-icon"></i> By default, most browser's user agent stylesheet will style an &lt;h1&gt; with al large font size to make it
+                look like a heading (although you could style it to look like anything you wanted). On the other hand,
+                you could make any element look like a top level heading.</p>
+            <p><i class="fas fa-play"></i><mark> Consider the following</mark></p>
+            <p><i class="far fa-arrow-alt-circle-right"></i>
+                This will render it to look like a top level heading, but it has no semantic value, so it will not get
+                any extra benefits as described above. It is therefore a good idea to use the right HTML element for the
+                right job.</p>
+            <p><i class="far fa-arrow-alt-circle-right"></i> HTML should be coded to represent the data that will be populated and not based on its default
+                presentation styling. Presentation (how it should look), is the sole responsibility of CSS.</p>
+            <legend>
+                <h2>Semantics in HTML</h2>
+            </legend>
+
+        </fieldset>
+    </form>
+
+    <form action="/action_page.php">
+        <fieldset id="fieldset">
+            <ul>
+                <li>Search engines will consider its contents as important keywords to influence the page's search
+                    rankings (see <a href="https://developer.mozilla.org/en-US/docs/Glossary/SEO">SEO )</a></li>
+                <li>Screen readers can use it as a signpost to help visually impaired users navigate a page</li>
+                <li>Finding blocks of meaningful code is significantly easier than searching through endless divs with
+                    or without semantic or namespaced classes</li>
+                <li>Suggests to the developer the type of data that will be populated</li>
+                <li>Semantic naming mirrors proper custom element/component naming</li>
+            </ul>
+
+            <legend>
+                <h3>Some of the benefits from writing semantic markup are as follows:</h$3>
+            </legend>
+
+        </fieldset>
+
+    </form>
+
+    <h2>Some semantic elements</h2>
+    <table id="table"  style="width: 100%; ">
+        <tr>
+            <td>article</td>
+            <td>aside</td>
+            <td>figure</td>
+            <td>details</td>
+            <td>figcaption</td>
+            <td>figure</td>
+        </tr>
+        <tr>
+            <td>footer</td>
+            <td>header</td>
+            <td><mark>mark</mark></td>
+            <td>main</td>
+            <td><em>em</em></td>
+            <td>nav</td>
+        </tr>
+
+        <tr>
+            <td><strong>strong</strong></td>
+            <td>section</td>
+            <td>summary</td>
+            <td>time</td>
+            <td>address</td>
+            <td>blockquote</td>
+        </tr>
+
+    </table>
+
+
+    <form action="/action_page.php">
+        <fieldset id="fieldset">
+            <p><i class="fas fa-star yellow-icon"></i> <mark>SEO (Search Engine Optimization)</mark> is the process of making a website more visible in search results, also terned improving search rankings.</p>
+            <p><i class="fas fa-star yellow-icon"></i>Search engines <strong>crawl</strong> the web, following links from page to page, and index the content found. When you search, the search engine displays the indexed content. Crawlers follow rules. If you follow those rules closely when doing SEO for a website, you give the site the best changes of showing up among the first results, increasing traffic and possibly reveneue (<em>for ecommere and ads</em>).</p>
+            <p><i class="fas fa-star yellow-icon"></i> Search engines give some guidelines for SEO, but big search engines keep result ranking as atrade secret.SEO combines official search engine guidelines, empirial knowledge, and theoretical knowledge from science papers or patents.</p>
+            <legend>
+                <h2>SEO</h2>
+            </legend>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p><strong>Hint:</strong>
+            <em>The information on this page is taken from the MDN site.
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html">Click</a>
+                for more detailed information.</em>
+        </p>
+    </footer>
+
+</body>
+
+</html>
